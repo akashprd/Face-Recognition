@@ -9,56 +9,147 @@ body{
 .main-container{
     height: 90vh;
     width: 100%;
-    background-color: #f7f7f7;
-    scroll-behavior: smooth;
+    background: #00c6ff; 
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff); 
+    background: linear-gradient(to left, #0072ff, #00c6ff);
 }
 .project-title{
-    color: #111d5e;
+    color: #000;
     text-align: left;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 900;
-    padding: 5% 0 0 5%;
+    padding: 13.3% 0 0 20%;
     letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
 }
 .project-design{
     height: 1%;
     width: 20%;
-    background-color: #f40552;
-    margin: 0 0 0 5%;
+    background-color: #000;
+    margin: 0 0 0 20%;
     border-radius: 5px;
 }
 .project-info{
-    color: #95389e;
-    font-family: 'Cookie', cursive;
-    text-align: center;
-    font-size: 2em;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    font-size: 1.4em;
     font-weight: 700;
-    margin: 8% 0 2% 0;
-    letter-spacing: 4px;
+    margin: 4% 0 2% 20%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.project-img{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    height: 40%;
+    width: 20%;
+}
+.prj-img{
+    height: 100%;
+    width: 100%;
 }
 .project-button{
     height: 5%;
     width: 15%;
     background-color: #000;
-    margin: 0 auto;
+    margin: 4% 0 0 20%;
     text-align: center;
     font-size: 1.2em;
     font-weight: 700;
     letter-spacing: 3px;
-    line-height: 2.1;
+    line-height: 2.2;
     border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     cursor: pointer;
 }
 .button-text{
     text-decoration: none;
     color:#fff;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
 }
 .main-footer{
     height: 10vh;
     width: 100%;
     background-color: #000;
+    display: flex;
 }
+.icon-div{
+    display: flex;
+    padding-left: 20%;
+}
+ion-icon{
+    font-size: 2em;
+    margin: 30px 20px 0 10px;
+}
+.fb-icon{
+    color: #fff;
+}
+.fb-icon:hover{
+    transition: all .35s;
+      color: #3b5998;
+}
+.insta-icon{
+    
+    color: #fff;
+}
+.insta-icon:hover{
+  transition: all .35s;
+    color: #C13584;
+}
+.twitter-icon{
+    
+    color: #fff;
+}
+.twitter-icon:hover{
+  transition: all .35s;
+    color: #00acee;
+}
+.whatsapp-icon{
+  color: #fff;
+}
+.whatsapp-icon:hover{
+  transition: all .35s;
+  color: #25d366;
+}
+.github-icon{
+    color: #fff;
+}
+.github-icon:hover{
+    transition: all .35s;
+    color: #964B00;
+}
+.linkedin-icon{
+    color: #fff;
+}
+.linkedin-icon:hover{
+    transition: all .35s;
+    color:  #0e76a8;
+}
+.f-name{
+    color: #fff;
+    margin-top: 38px;
+    margin-left: 28%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+}
+.f-name-a{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+}
+.f-name-a:hover{
+    transition: all 2s;
+    color: greenyellow;
+    font-size: 1.2em;
+}
+
+/* 2nd page */
+
 .out-container{
     height: 100vh;
     width: 100%;
@@ -69,20 +160,20 @@ body{
     height: 5%;
     width: 15%;
     background-color: #fff;
-    left: 5%;
-    top: 2%;
+    left: 10%;
+    top: 3%;
     text-align: center;
     font-size: 1.2em;
     font-weight: 700;
     letter-spacing: 3px;
     line-height: 2.3;
     border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
     cursor: pointer;
 }
 .back-text{
     text-decoration: none;
     color: #000;
+    font-family: 'Bebas Neue', cursive;
 }
 .out-video{
     background-color: white;
